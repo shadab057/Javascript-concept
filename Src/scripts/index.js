@@ -1,6 +1,15 @@
 function bodyload(){
-    pic.src = "/public/images/corner.jpg"
-    pic.width = 200;
-    frmRegister.btnRegister.value = "Register";
-    frmLogin.btnLogin.value = "Login";
+   document.getElementById("pic").src ="/public/images/corner.jpg";
+   document.getElementById("btnRegister").value = "Register";
+   document.getElementById("btnLogin").value = "Login";
 }
+
+
+
+
+
+
+
+
+
+//   pic.src = "/public/images/corner.jpg"
